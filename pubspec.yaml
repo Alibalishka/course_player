@@ -11,16 +11,16 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  auto_route: ^5.0.1
   flutter_svg: ^1.0.3
   spider: ^4.2.1
-  dio: ^4.0.6
-  flutter_bloc: ^8.1.1
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  json_annotation: ^4.7.0
-  flutter_chat_bubble: ^2.0.2
   flutter_native_splash: ^2.3.1
+  flutter_chat_bubble: ^2.0.2
+  # Navigation
+  auto_route: ^5.0.1
+  # Rest API and State management
+  flutter_bloc: ^8.1.1
+  dio: ^4.0.6
+  json_annotation: ^4.7.0
 
 dev_dependencies:
   flutter_test:
