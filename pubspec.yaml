@@ -31,10 +31,15 @@ dev_dependencies:
   json_serializable: ^6.5.4
 
 flutter_native_splash:
-  android: true
-  ios: true
   color: "#9B9B9B"
   image: "assets/images/png/bot.png"
+
+  android_12:
+    image: "assets/images/png/bot.png"
+    color: "#9B9B9B"
+
+  android: true
+  ios: true
 
 flutter:
   uses-material-design: true
